@@ -8,7 +8,7 @@ Link to Website: https://cdn.azure.vsystems.online/
 
 The website is broken down into the architecture below:
 
-![storage-website](https://github.com/rjones18/Images/blob/main/azurecdn.png)
+![storage-website](https://github.com/rjones18/Images/blob/main/BlogSite.drawio.png)
 
 ### Language 
 
@@ -31,4 +31,6 @@ The website is broken down into the architecture below:
 
 - Provided by Azure CDN
 
+### Storage
 
+- [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)
