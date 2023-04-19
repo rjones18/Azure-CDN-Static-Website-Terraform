@@ -1,7 +1,7 @@
 # Azure-Blob-Storage-Static-Website
 In this project I created a static website in my blob storage container and deployed the website using the Azure Content Delivery Network.
 
-Link to Website: https://cdn.azure.vsystems.online/
+Link to Website: https://rjcdn.azure.vsystems.online/
 
 
 ## Website Breakdown
