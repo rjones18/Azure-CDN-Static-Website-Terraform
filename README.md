@@ -8,6 +8,6 @@ Link to Website: https://rjcdn.azure.vsystems.online/
 
 The website is broken down into the architecture below:
 
-![storage-website](https://github.com/rjones18/Images/blob/main/Azure%20CDN%20Static%20Site.png)
+![storage-website](https://github.com/rjones18/Images/blob/main/Azure%20CDN%20Static%20Site%20(1).png)
 
 
