@@ -23,7 +23,15 @@ jobs:
         uses: hashicorp/setup-terraform@v1
         with:
           terraform_version: "1.0.0"
-
+          
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/iac@master
+        env:
+         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+         args: iac test . --report
+        continue-on-error: true
+        
       - name: Terraform Init
         run: terraform init
 
