@@ -1,5 +1,11 @@
 # Azure-CDN-Static-Website-Terraform
-In this project, I have leveraged various Azure services to create and deploy a static website. Using Blob storage container, I hosted the static website, and deployed it with the help of the Azure Content Delivery Network, ensuring fast and reliable delivery to users across the globe. To ensure security, I have integrated Snyk with my Github repository to scan for vulnerabilities and potential security loopholes. Additionally, I have automated the deployment process using Github Actions and Terraform. The authentication to Azure is being handled via a secure service principal, and the entire deployment process is executed automatically. To give my CDN a customized domain name, I have used Azure DNS Zone, retrieving DNS records from my Go Daddy DNS.
+In this project, I have utilized several Azure services to craft and deploy a static website. With the Blob storage container, the static website is hosted and then rolled out using the Azure Content Delivery Network, guaranteeing swift and dependable access to users worldwide.
+
+To bolster security, I have incorporated both Snyk and Defender for DevOps in the GitHub Actions pipeline. While Snyk scans for vulnerabilities and possible security breaches, Defender for DevOps conducts a thorough security examination, the results of which are relayed to Azure Defender for Cloud. This integration ensures that security findings are constantly monitored and evaluated.
+
+Furthermore, if any security alerts are triggered, they are seamlessly forwarded to Microsoft Sentinel through the Log Analytics workspace, streamlining the process of threat detection and response.
+
+The deployment workflow is automated using GitHub Actions coupled with Terraform. Authentication to Azure is managed via a secure service principal, ensuring the deployment process is both automated and secure. And for a more branded experience, I've used Azure DNS Zone, pulling DNS records from my Go Daddy DNS, to give my CDN a customized domain name.
 
 Link to Website: https://rjcdn.azure.vsystems.online/
 
@@ -8,6 +14,6 @@ Link to Website: https://rjcdn.azure.vsystems.online/
 
 The website is broken down into the architecture below:
 
-![storage-website](https://github.com/rjones18/Images/blob/main/Azure%20CDN%20Static%20Site%20(1).png)
+![storage-website](https://github.com/rjones18/Images/blob/main/Azure%20CDN%20Static%20Site%20(4).png)
 
 
