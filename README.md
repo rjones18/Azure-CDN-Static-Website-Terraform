@@ -3,8 +3,6 @@ In this project, I have utilized several Azure services to craft and deploy a st
 
 To bolster security, I have incorporated both Snyk and Defender for DevOps in the GitHub Actions pipeline. While Snyk scans for vulnerabilities and possible security breaches, Defender for DevOps conducts a thorough security examination, the results of which are relayed to Azure Defender for Cloud. This integration ensures that security findings are constantly monitored and evaluated.
 
-Furthermore, if any security alerts are triggered, they are seamlessly forwarded to Microsoft Sentinel through the Log Analytics workspace, streamlining the process of threat detection and response.
-
 The deployment workflow is automated using GitHub Actions coupled with Terraform. Authentication to Azure is managed via a secure service principal, ensuring the deployment process is both automated and secure. And for a more branded experience, I've used Azure DNS Zone, pulling DNS records from my Go Daddy DNS, to give my CDN a customized domain name.
 
 Link to Website: https://rjcdn.azure.vsystems.online/
@@ -14,6 +12,6 @@ Link to Website: https://rjcdn.azure.vsystems.online/
 
 The website is broken down into the architecture below:
 
-![storage-website](https://github.com/rjones18/Images/blob/main/Azure%20CDN%20Static%20Site%20(4).png)
+![storage-website](https://github.com/rjones18/Images/blob/main/Azure%20CDN%20Static%20Site%20(5).png)
 
 
